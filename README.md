@@ -11,7 +11,7 @@ Following a structured, public-first approach, every commit to this repository r
 
 ## Training Log & Key Milestones
 
-This README will be updated as I progress through the [30-Day Protocol Battle Plan](./Web3%20Protocol%20Training%20Plan.docx).
+This README will be updated as I progress through my 30-Day Protocol Battle Plan.
 
 * **Week 1:** Foundations & Tooling (Foundry, Git, Solidity Style)
 * **Week 2:** The Attacker's Mindset (Ethernaut Challenges)
