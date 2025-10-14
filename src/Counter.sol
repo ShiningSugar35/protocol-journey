@@ -11,8 +11,11 @@ contract Counter {
     function increment() public {
         number++;
     }
+    
     function decrement() public {
-        require(number>=1,unicode"你这个数太小了，没法再减了！") ;
+        require(number >= 1, unicode"你这个数太小了，没法再减了！");
         number--;
     }
+
+    function forGitFlow() private {}
 }
