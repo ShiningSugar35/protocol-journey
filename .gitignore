@@ -12,3 +12,26 @@ docs/
 
 # Dotenv file
 .env
+
+# ZK / Circom build artifacts
+# ==================================
+
+# 1. 忽略 `circom` 编译生成的整个目录
+MultiplierSq_cpp/
+MultiplierSq_js/
+
+# 2. 忽略 `circom` 在顶层生成的单个文件
+MultiplierSq.r1cs
+MultiplierSq.sym
+
+# 3. 忽略未来 snarkjs 会生成的证明/密钥文件
+*.zkey
+*.vkey.json
+*.ptau
+witness.wtns
+proof.json
+public.json
+
+# 4. 忽略 snarkjs 可能生成的 Verifier 合约
+# (我们暂时不需要提交它)
+*.sol
