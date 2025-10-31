@@ -1,23 +1,31 @@
-# My Web3 Protocol Engineering Journey
+# Web3 Security & Protocol Engineer - Journey Log
 
-This repository documents my 30-day intensive training program to pivot from a general CS background into a specialized Web3 Protocol and Smart Contract Security Engineer.
+Hello, I am a recent graduate with a B.S. in Computer Science and Technology. I am currently executing a hands-on, practical learning plan with the goal of becoming a professional Web3 Security Researcher and Protocol Engineer.
 
-Following a structured, public-first approach, every commit to this repository represents a verifiable step in mastering the tools, mindsets, and techniques required for professional protocol development.
+I believe that **"Verifiable Work"** triumphs over all else. All of my learning, building, and breaking records are 100% public.
 
-## Core Focus Areas
+---
 
-* **Smart Contract Security (80%):** Deep-diving into common vulnerabilities, defensive programming patterns, and gas optimization techniques using Foundry.
-* **Zero-Knowledge Proofs (20%):** Exploring the fundamentals of ZKPs by implementing basic circuits to build a foundational understanding of this frontier technology.
+## Core Portfolio
 
-## Training Log & Key Milestones
+I have organized my work into three specialized repositories, corresponding to "Build," "Break," and "Audit":
 
-This README will be updated as I progress through my 30-Day Protocol Battle Plan.
+### 1. 🏗️ `protocol-journey` (Main Repo / You Are Here)
+* **Role:** **Build & Explain**
+* **Content:** Core protocols and capstone projects I've built from scratch, as well as my technical blog posts and audit reports.
+* **[View My Technical Blog & Audit Reports](./blog/)**
 
-* **Week 1:** Foundations & Tooling (Foundry, Git, Solidity Style)
-* **Week 2:** The Attacker's Mindset (Ethernaut Challenges)
-* **Week 3:** Defensive Engineering & Gas Optimization
-* **Week 4:** Capstone Project - Architecture & Core Logic
-* **Week 5:** Capstone Project - Security Hardening
-* **Week 6:** Auditing, Documentation & Final Polish
+### 2. 🔓 `solidity-hacks` (Ethernaut Solutions Repo)
+* **Role:** **Break (Level 1)**
+* **Content:** Complete Foundry (TDD) solutions for the [Ethernaut](https://ethernaut.openzeppelin.com/) challenges.
+* **[View My Ethernaut Solutions](https://github.com/ShiningSugar35/solidity-hacks)**
 
-This journey is conducted under the mentorship of my AI Coach, Lanlam. All work is my own, completed within a 2-hour daily timeframe.
+### 3. 🛡️ `audit-foundry` (DVDF Solutions Repo)
+* **Role:** **Break (Level 2)**
+* **Content:** Complete Foundry (TDD) solutions for the [Damn Vulnerable DeFi](https://www.damnvulnerabledefi.xyz/) challenges.
+* **[View My DVDF Solutions](https://github.com/ShiningSugar35/audit-foundry)**
+
+---
+
+## Technical Writing & Deep Dives (Explain)
+*All articles are located in the [`/blog`](./blog/) directory*
