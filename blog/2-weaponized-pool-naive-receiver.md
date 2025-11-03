@@ -8,7 +8,7 @@
 
 ## 1. Background: The "Naive" Victim
 
-This is my second post in the Damn Vulnerable DeFi (DVDF) series. After "bricking" the Unstoppable pool, I moved on to **#2 "Naive Receiver"**.
+This is my second post in the Damn Vulnerable DeFi (DVDF) series. After "bricking" the Unstoppable pool, I moved on to **"Naive Receiver"**.
 
 The setup was different this time:
 * **The Weapon:** A lender pool (`NaiveReceiverLenderPool.sol`) holding 100 ETH.
