@@ -1,7 +1,9 @@
 # The Side Entrance Attack — Abusing Ledger Logic
 
 **Author:** ShiningSugar
+
 **Date:** 2025-11-03
+
 **Tags:** Smart Contract Security, DeFi, Re-entrancy, Flash Loans
 
 -----
@@ -150,5 +152,5 @@ This fix ensures that the "main entrance" and "side entrance" can't be used at t
 
 ## 5. Conclusion: Key Lessons
 
- **Flash Loan Callbacks = Re-entrancy:** A flash loan callback `execute()` is a powerful, built-in re-entrancy vector. Any state-changing function in your contract (`deposit`, `withdraw`, etc.) must be protected from being called during a flash loan.
+**Flash Loan Callbacks = Re-entrancy:** A flash loan callback `execute()` is a powerful, built-in re-entrancy vector. Any state-changing function in your contract (`deposit`, `withdraw`, etc.) must be protected from being called during a flash loan.
  
